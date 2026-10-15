@@ -1,47 +1,16 @@
 ---
-title: "Mon Tableau de Bord - Thème Pulse"
-output:
-  flexdashboard::flex_dashboard:
-    theme: pulse
-    orientation: columns
-    vertical_layout: fill
+title: "Bienvenue"
 ---
 
-```{r setup, include=FALSE}
-library(flexdashboard)
-library(knitr)
-```
+# Bienvenue sur mon site
 
-Page 1
-======================================================================
+Ceci est un site **Quarto** avec un thème *Bootswatch* et tout le contenu intégré dans un seul fichier HTML.
 
-### Section 1
+## Exemple de code
 
 ```{r}
-summary(mtcars)
-```
+# Exemple R
+summary(cars)
 
-### Section 2
-
-```{r}
-plot(mtcars$mpg, mtcars$hp, main="MPG vs HP", xlab="Miles per Gallon", ylab="Horsepower")
-```
-
-Page 2
-======================================================================
-
-### Analyse des données
-
-```{r}
-cor(mtcars)
-```
-
-### Visualisation
-
-```{r}
-library(ggplot2)
-ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point() +
-  geom_smooth(method = "lm")
 ```
 
