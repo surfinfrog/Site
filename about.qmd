@@ -1,0 +1,16 @@
+
+---
+
+## 4️⃣ Page "À propos" `about.qmd`
+
+```markdown
+---
+title: "À propos"
+---
+
+# À propos
+
+Ce site est généré avec **Quarto** et utilise le thème `cosmo`.
+
+Vous pouvez changer le thème dans `_quarto.yml` pour tester différents styles.
+
