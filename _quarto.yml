@@ -13,7 +13,7 @@ website:
 
 format:
   html:
-    theme: cosmo       # Thème Bootswatch (ex: cosmo, litera, darkly, etc.)
+    theme: pulse       # Thème Bootswatch (ex: cosmo, litera, darkly, etc.)
     css: styles.css    # (optionnel) CSS perso
     toc: true          # Table des matières
     toc-depth: 2
